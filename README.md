@@ -1,14 +1,14 @@
 # Phishing Domain Detection with Machine Learning
 
-## 🔍 Overview
+##  Overview
 
 This project aims to detect whether a given domain URL is legitimate or a phishing website. Phishing is a common cyber-attack where attackers disguise as trustworthy entities to trick victims into revealing sensitive information like login credentials and account details. This system uses machine learning models to identify and classify URLs as either legitimate or malicious, helping to prevent phishing attacks.
 
-## 🎯 Objective
+##  Objective
 
 The objective of this project is to develop a domain authentication system that can accurately classify URLs as either legitimate or malicious. The system leverages machine learning models trained on features extracted from URLs to distinguish between real and fraudulent domains.
 
-## 🚀 Project Workflow
+## Project Workflow
 
 The project follows a standard machine learning workflow:
 1. **Data Collection**
@@ -44,13 +44,13 @@ Among these, the Multilayer Perceptron (MLP) provided the highest accuracy of 99
 
 After training and evaluating the models, the best-performing model is saved and can be used for predictions.
 
-## 👨‍💻 Running the Project Locally
+##  Running the Project Locally
 
 To run the project locally, follow these steps:
 
 1. Clone the repository using Git:
    ```bash
-   git clone https://github.com/NagabalajiKN/phishing_detector_model
+   git clone https://github.com/Nithu-Shree/Phishing_Domain_Detection
 2. Install the required dependencies in a virtual environment:
    ```bash
    pip install -r requirements.txt
